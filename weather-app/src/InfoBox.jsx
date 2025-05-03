@@ -16,7 +16,7 @@ const InfoBox = ({ info }) => {
     return (
         <div className="InfoBox"><br /><br />
             <div className='cardContainer'>
-                <Card sx={{ maxWidth: 345 }}>
+                <Card sx={{ maxWidth: 345 }}> 
                     <CardMedia
                         sx={{ height: 140 }}
                         image={info.humidity > 80 ? RAIN_URL : info.temp > 15 ? HOT_URL : COLD_URL}
